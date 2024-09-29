@@ -15,5 +15,16 @@ namespace Calculos
         {
             return x + y;
         }
+
+        /// <summary>
+        ///  Operação de subtração
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns>Retorna o resultado da subtração de 2 numeros</returns>
+        public int Subtrair(int x, int y)
+        {
+            return x - y;
+        }
     }
 }
