@@ -24,7 +24,9 @@ namespace Calculos
             }
     }
 
-            public static double ConverterTemperatura(ConversaoTemperatura conversao, double temperatura)
+///<summary> Tipo de conversão de temperatura </summary> 
+
+public static double ConverterTemperatura(ConversaoTemperatura conversao, double temperatura)
                 {
                     if (conversao == ConversaoTemperatura.CelsiusFahrenheit)
                     {
